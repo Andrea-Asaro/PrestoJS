@@ -1,0 +1,79 @@
+[
+{ 
+"citta": "New York", 
+"costo": 950, 
+"quantePersone": 2,
+"quanteNotti": 6, 
+"lastMinute": true
+},
+{ 
+"citta": "Roma", 
+"costo": 550, 
+"quantePersone": 2,
+"quanteNotti": 6, 
+"lastMinute": true
+},
+{ 
+"citta": "Londra", 
+"costo": 650, 
+"quantePersone": 2,
+"quanteNotti": 6, 
+"lastMinute": false
+},
+{ 
+"citta": "Pechino", 
+"costo": 1200, 
+"quantePersone": 2,
+"quanteNotti": 7, 
+"lastMinute": true
+},
+{ 
+"citta": "Maldive", 
+"costo": 1550, 
+"quantePersone": 2,
+"quanteNotti": 9, 
+"lastMinute": true
+},
+{ 
+"citta": "Monaco di Baviera", 
+"costo": 600, 
+"quantePersone": 2,
+"quanteNotti": 4, 
+"lastMinute": false
+},
+{ 
+"citta": "Ibiza", 
+"costo": 1100, 
+"quantePersone": 4,
+"quanteNotti": 3, 
+"lastMinute": false
+},
+{ 
+"citta": "Praga", 
+"costo": 550, 
+"quantePersone": 4,
+"quanteNotti": 4, 
+"lastMinute": false
+},
+{ 
+"citta": "Milano", 
+"costo": 720, 
+"quantePersone": 2,
+"quanteNotti": 3, 
+"lastMinute": true
+},
+{ 
+"citta": "Parigi", 
+"costo": 800, 
+"quantePersone": 2,
+"quanteNotti": 5, 
+"lastMinute": false
+},
+{ 
+"citta": "Monopoli", 
+"costo": 250, 
+"quantePersone": 2,
+"quanteNotti": 2, 
+"lastMinute": false
+}
+]

@@ -1,0 +1,321 @@
+
+:root {
+
+    --color2: #7392B7;
+    --color2Transparent: #7392b748;
+    --colorAcc: rgb(193, 110, 61);
+}
+
+.text_color2{
+    color: var(--color2);
+}
+
+.text_colorAcc{
+    color: var(--colorAcc);
+}
+
+.bg_color2{
+    background-color: var(--color2);
+}
+
+.bg_color2_transparent{
+    background-color: var(--color2Transparent);
+}
+
+.bg_colorAcc{
+    background-color: var(--colorAcc);
+}
+
+body {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.title_font { 
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.subtitle_font {
+    font-family: "Source Serif 4", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.mioNavbarToggler{
+    border: none ;
+}
+.mioNavbarToggler:focus{
+    box-shadow: none;
+}
+.mioBurgerMenu{
+    width: 20px;
+    opacity: 1;
+    color: black;
+}
+
+.navbar_scrolled{
+    backdrop-filter: blur(6px);
+    background-color: #7392b755 ;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.navbar_scrolled_more{
+    backdrop-filter: blur(6px);
+    background-color: #7392b755 ;
+}
+
+.nav_transition{
+    transition: 0.5s;
+}
+
+.scrolled_navbar_icon{
+    color: var(--color2) !important;
+}
+.navbar_icon_transition{
+    transition: 0.5s;
+}
+
+
+.navbar_mobile_toggled{
+    backdrop-filter: blur(6px);
+    background-color:var(--color2Transparent);
+}
+
+header{
+    min-height: 550px;
+    background-image: url("./media/travel_wallpaper.jpg!d");
+    background-size: cover;
+}
+
+.immagini_destinazioni{
+    width: 193px;
+    border-radius: 50%;
+    border-color: var(--color2);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.mio_pseudo_border{
+    position: relative;
+}
+
+.mio_pseudo_border::after{
+    position: absolute;    
+    bottom:0%;
+    left:15%;
+    width: 70%;
+    height: 1px;
+    content: "";
+    background-color: #dee2e6 !important;
+}
+
+.btn-numbers{
+    background-color: var(--color2);
+    color: white;
+    border: none;
+}
+
+.btn-numbers:hover{
+    background-color: var(--color2);
+    color: white;
+    cursor:initial;
+    border: none;
+}
+
+.card_info{
+    background-color: var(--color2Transparent);
+    margin-left:10px ;
+    margin-right:10px ;
+    margin-bottom:15px ;
+    border-radius: 6px;
+    padding-left: 11px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    color: rgba(0, 0, 0, 0.45);
+    z-index: 2;    
+
+}
+
+.costo {
+    font-weight: bold;
+    color: var(--colorAcc);
+}
+
+.btn-accent{
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: var(--colorAcc);
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+.btn-accent:hover{
+    background-color: rgb(161, 92, 51);
+    color: white;
+}
+
+.my_card_img{
+    transition: 0.5s;
+    z-index: -1;
+}
+
+div:hover > div > .my_card_img{
+    transform: scale(1.2);
+}
+
+.my_heart:hover{
+    color: var(--colorAcc);
+}
+
+/* css carosello swiper  */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 400px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.swiper-pagination-bullet-active {
+    background-color: var(--colorAcc);
+}
+
+
+/* PAGINA TUTTI I PACCHETTI  */
+
+
+.tuttiPacchettiHeader{
+min-height: 425px;
+background-image: url("https://images7.alphacoders.com/133/1333661.png");
+background-size: cover;
+}
+
+.filtriTransition{
+    transition: 0.3s;
+}
+
+.form-check-input:checked{
+    background-color: var(--colorAcc);
+    border-color: var(--colorAcc);
+}
+
+
+.box_filtri{
+    background-color: var(--color2Transparent);
+    border-radius: 6px;
+    padding-left: 11px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.sticky_filters{
+    position: sticky;
+    top: 81px;
+}
+
+.my_rangebar{
+    padding-left: 15px;
+    padding-right: 20px;
+
+}
+
+/* test webkit?!?!?!?  */
+
+.my_rangebar::-webkit-slider-thumb {
+    background: var(--colorAcc);
+  }
+  
+.my_rangebar::-moz-range-thumb {
+    background: var(--colorAcc);
+  }
+.my_rangebar::-ms-thumb {
+    background: var(--colorAcc);
+  }
+
+/* test webkit?!?!?!?  */
+
+
+.breakkk{
+    margin-bottom: 2000px;
+}
+
+
+@media (min-width:992px) {
+    .navbar_scrolled{
+        backdrop-filter: blur(6px);
+        background-color: #7392b755 ;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 70px;
+        border-radius: 10px;
+    }
+}
+
+
+@media (max-width:435px) {
+    .tuttiPacchettiHeader{
+        background-position:center top;
+
+        }
+}
+
+@media (max-width:435px) {
+    header{
+    background-position:center top;
+    }
+    h1{
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:1600px) {
+    header{
+        background-position: 50% 20%;  /*primo valore asse x, secondo valore asse y*/
+    }
+}
+@media (min-width:1715px) {
+    header{
+        background-position: 50% 50%; 
+    }
+}
+
+@media (min-width: 768px) {
+    .mio_pseudo_border::after{
+        position: absolute;    
+        bottom:0%;
+        left:15%;
+        width: 70%;
+        height: 0px;
+        content: "";
+        background-color: #dee2e6 !important;
+    }
+} 
+
+@media (max-width:435px) {
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        width: 290px;
+      }
+
+}
